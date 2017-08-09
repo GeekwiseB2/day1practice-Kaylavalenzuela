@@ -1,16 +1,21 @@
-li {
+.container {
+	width: 1000px;
+	height: 1000px;
+	margin:0 auto;
+	/*text-align:center;*/
+	background-color: pink;
+	position: relative;}
+
+ul {
   list-style-type: none;
-  color: #e40007;
+  color:green;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
-}
+h1 {
+  color: blue;}
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+h3 {
+  font-family: 'Dancing Script', cursive;
+  color: orange;
+  float: right;
 }
