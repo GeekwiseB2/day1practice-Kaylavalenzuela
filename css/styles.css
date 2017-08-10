@@ -1,0 +1,21 @@
+.container {
+	width: 1000px;
+	height: 1000px;
+	margin:0 auto;
+	/*text-align:center;*/
+	background-color: pink;
+	position: relative;}
+
+ul {
+  list-style-type: none;
+  color:green;
+}
+
+h1 {
+  color: blue;}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  color: orange;
+  float: right;
+}
